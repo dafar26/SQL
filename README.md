@@ -25,3 +25,15 @@ Ce projet est un système de gestion de clinique médicale avec une base de donn
 1. Clone le dépôt sur ton ordinateur :
    ```bash
    git clone https://github.com/ton_nom_utilisateur/gestion_clinique_medicale_sql.git
+
+2. Ouvre pgAdmin et crée une nouvelle base de données nommée clinique.
+
+3. Dans pgAdmin, ouvre l’éditeur de requêtes :
+
+   Charge d’abord le fichier schema.sql et exécute-le pour créer les tables.
+
+   Ensuite, exécute insert_data.sql pour insérer les données fictives.
+
+   Enfin, utilise les requêtes dans queries.sql pour interroger la base.
+
+
